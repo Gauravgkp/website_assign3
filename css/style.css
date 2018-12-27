@@ -1,0 +1,38 @@
+body{
+  color: black;
+}
+#page-top{
+  background-color: white;
+}
+#navhead a{
+  color:black;
+}
+.jumbotron{
+  background-color: rgba(75, 224, 38, 0.5);
+  color: black;
+  text-align: justify;
+  margin: 50px;
+}
+.map-container{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+  }
+  .map-container iframe{
+  left:0;
+  top:0;
+  height:90%;
+  width:100%;
+  position:absolute;
+  }
+  
+@media all and (max-width: 1024px) {
+body{
+  width: 100%;
+}
+}
+
+@media all and (max-width: 400px) {
+
+}
