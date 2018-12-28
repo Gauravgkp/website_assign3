@@ -1,6 +1,9 @@
 body{
+  width: 100%;
+  position: 0;
   color: black;
 }
+navbarDropdown
 #page-top{
   background-color: white;
 }
@@ -38,7 +41,13 @@ body{
   width: 100%;
 }
 }
-
 @media all and (max-width: 400px) {
-
+.button {
+    align-items: flex-start;
+    text-align: center;
+}
+body{
+  width: 100%;
+  position: 0;
+}
 }
